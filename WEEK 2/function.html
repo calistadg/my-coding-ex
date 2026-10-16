@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function printName() {
+            console.log("My name is Calista");
+        }
+        printName();
+
+        //Function Parameter
+        function printName1(myName) {
+            console.log("My name is " + myName);
+        }
+        printName("Calista");
+
+        //Function Return Statement
+        function addition (num1, num2) {
+            let result = num1 + num2;
+            return result;
+        }
+        let additionResult = addition(5, 9);
+        console.log("The addition result is " + additionResult);
+
+        //Function with Default Value
+        function say(name, age) {
+            return (`My name is ${name}. This year I'm turning ${age}.`)
+        }
+        console.log(say("GAIA", 1))
+
+        //EXAMPLE no.2
+        function say(name1, age1 = 0) {
+            console.log (`My name is ${name1}. I'm ${age1} this year.`)
+        }
+        say("GAIA")
+
+        //ANONYMOUS FUNCTION
+        let addition1 = function (num3, num4) {
+            return num3 + num4;
+        };
+        console.log("The addition result is " + addition1 (8, 9));
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

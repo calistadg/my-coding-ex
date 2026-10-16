@@ -1,0 +1,31 @@
+.personal-info {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.personal-info h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.personal-info h2 {
+    margin-top: 25px;
+}
+
+.personal-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.personal-info li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.personal-info img {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
