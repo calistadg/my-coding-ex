@@ -1,0 +1,14 @@
+# packages and dependencies
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+langchain-mongodb
+pymongo
+pypdf
+python-dotenv
+fastapi[standard]
+uvicorn[standard]
+certifi; sys_platform == "darwin"
+
+streamlit>=1.32,<2
+requests>=2.31,<3
